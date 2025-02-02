@@ -25,6 +25,7 @@ def isOpenHand(landmarks,hand_type):
     return sum(fingers) >= 4 #jo 4 finger khuli hoi to open
 
 cap = cv.VideoCapture(0)
+
 cap.set(cv.CAP_PROP_FRAME_WIDTH, 240) 
 cap.set(cv.CAP_PROP_FRAME_HEIGHT, 240)
 
